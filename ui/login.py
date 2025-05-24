@@ -14,17 +14,25 @@ def show_login(on_success):
 
     login_window = tk.Tk()
     login_window.title("EchoLock - Login")
-    login_window.geometry("300x180")
-    login_window.configure(bg="#1e1e1e")
+    login_window.geometry("400x240")  # 📏 Increased size
+    login_window.configure(bg="#0f0f0f")  # 🖤 Darker background
 
-    tk.Label(login_window, text="Username:", bg="#1e1e1e", fg="white").pack(pady=5)
-    entry_username = tk.Entry(login_window)
-    entry_username.pack(pady=5)
+    # Fonts & colors
+    font = ("Consolas", 11)
+    label_fg = "#39ff14"  # 💚 HackTheBox green
+    button_bg = "#39ff14"
+    button_fg = "#0f0f0f"
 
-    tk.Label(login_window, text="Password:", bg="#1e1e1e", fg="white").pack(pady=5)
-    entry_password = tk.Entry(login_window, show="*")
-    entry_password.pack(pady=5)
+    tk.Label(login_window, text="Username:", bg="#0f0f0f", fg=label_fg, font=font).pack(pady=8)
+    entry_username = tk.Entry(login_window, font=font, bg="#1e1e1e", fg="white", insertbackground="white")
+    entry_username.pack(pady=5, ipadx=5, ipady=3)
 
-    tk.Button(login_window, text="Login", command=attempt_login, bg="#0078d4", fg="white").pack(pady=10)
+    tk.Label(login_window, text="Password:", bg="#0f0f0f", fg=label_fg, font=font).pack(pady=8)
+    entry_password = tk.Entry(login_window, show="*", font=font, bg="#1e1e1e", fg="white", insertbackground="white")
+    entry_password.pack(pady=5, ipadx=5, ipady=3)
+
+    tk.Button(login_window, text="Login", command=attempt_login,
+              bg=button_bg, fg=button_fg, font=("Consolas", 11, "bold"),
+              relief=tk.FLAT, padx=10, pady=4).pack(pady=15)
 
     login_window.mainloop()
