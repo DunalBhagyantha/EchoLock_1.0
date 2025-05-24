@@ -1,0 +1,29 @@
+[2025-05-22 23:31:55] dunal: hi
+[2025-05-23 18:41:00] dunal: hi
+[2025-05-23 18:48:25] dunal: hi
+[2025-05-23 18:56:36] dunal: hi
+[2025-05-23 19:01:01] dunal: hi
+[2025-05-23 19:02:25] dunal: hi
+[2025-05-23 19:24:25] dunal: hi 
+[2025-05-23 22:22:44] dunal: 123
+You (Encrypted): I58ilt+W/BPnbrRaqbgOD0QipTQrX0RtAp/iR3qFHU59zvfBVWMuSpBLXYOY2yvoViuL
+You (Decrypted): hyo
+
+You (Encrypted): s0X3cDYPwlmg0L/XaRBspim5ZgJdTjRQ/1X4wKILTStTMLENJqRox9BggCPNML/sO+bEgzg=
+You (Decrypted): kkkkk
+
+You (Encrypted): /MVC5uAc3bJfC9Wa7xduLH3xDOj7jt1cIv4xeaI3is7SFHGcg2WAKOHHuZmtyZODrg==
+You (Decrypted): w
+
+You (Encrypted): W9/bSXUL5dExUVtfA/JpgVsC9gyLYSgdPYnAjkNO/1/3tULPOL0sLSDC9agGqWNNA22eUuIEyQ==
+You (Decrypted): hi emma
+
+You (Encrypted): 9sXVZUha9/BNIDCHmFAqvpcO8nGoqKtT6oLGN18QyqpLwBAap/5UzhVAKQtTDFH81yp+0A==
+You (Decrypted): hi 3
+
+[2025-05-24 11:25:49] You (Encrypted): iGvEOJZBZ9U2wjefHprZqBzeg6znZZRbyH94r9vwkaYZGhHlFhrTJnDe1MaTTUID61/CSg==
+[2025-05-24 11:25:49] You (Decrypted): hi 4
+
+[2025-05-24 11:26:24] You (Encrypted): 3SuEIKHkzT8ip/cI5oSd9kh40KOfthsrKSIvq1reOtpSj3SmjtexgRmgI+4LcIgqlyv4HA==
+[2025-05-24 11:26:24] You (Decrypted): hi 5
+
