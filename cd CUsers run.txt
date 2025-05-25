@@ -1,4 +1,4 @@
-cd "C:\Users\HP\OneDrive\protect ramsom ware\OneDrive\Documents\github project\echolock"
+cd "C:\Users\HP\....\echolock"
 
 python -m core.network.server
 
