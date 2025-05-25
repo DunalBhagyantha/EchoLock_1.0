@@ -1,0 +1,16 @@
+cd "C:\Users\HP\OneDrive\protect ramsom ware\OneDrive\Documents\github project\echolock"
+
+python -m core.network.server
+
+[+] Server running on 0.0.0.0:9999
+
+
+
+
+
+cd "C:\Users\HP\OneDrive\protect ramsom ware\OneDrive\Documents\github project\echolock"
+
+python -m core.network.client
+
+[+] Connected to server!
+
