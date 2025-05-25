@@ -22,4 +22,4 @@ EchoLock is a terminal-based secure messaging application built in Python. It fe
 
 ---
 
-Made with 💖 by Dunal & Emma
+Made with  by Dunal 
