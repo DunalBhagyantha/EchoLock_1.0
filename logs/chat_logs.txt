@@ -15,9 +15,6 @@ You (Decrypted): kkkkk
 You (Encrypted): /MVC5uAc3bJfC9Wa7xduLH3xDOj7jt1cIv4xeaI3is7SFHGcg2WAKOHHuZmtyZODrg==
 You (Decrypted): w
 
-You (Encrypted): W9/bSXUL5dExUVtfA/JpgVsC9gyLYSgdPYnAjkNO/1/3tULPOL0sLSDC9agGqWNNA22eUuIEyQ==
-You (Decrypted): hi emma
-
 You (Encrypted): 9sXVZUha9/BNIDCHmFAqvpcO8nGoqKtT6oLGN18QyqpLwBAap/5UzhVAKQtTDFH81yp+0A==
 You (Decrypted): hi 3
 
@@ -44,9 +41,6 @@ You (Decrypted): hi 3
 
 [2025-05-24 21:00:15] You (Encrypted): OetY1rXUSeizuqaZmsxziA7LB6myUgTXGesaRcMsPkRbHwDZq1rTn+7Plk7bvs16ru4KufV8ZUQ16A==
 [2025-05-24 21:00:15] You (Decrypted): dunal hi 1
-
-[2025-05-24 21:27:16] You (Encrypted): FKfjAyJzbA/ZRK8wLwwuVwPPO0j1+Fy/wfkLrVuwu42LviNasHjNt7nOMpBoZjl+6Qk8BfRdjVmP/w==
-[2025-05-24 21:27:16] You (Decrypted): hi emma 11
 
 [2025-05-24 21:34:48] You (Encrypted): pEQ+1881suxLhQh/W2H6jCU5lsB9IVHYjclTqEHeVnSNg1x5vdSeFo6rNanwWSU+gq0s01Nl6Q==
 [2025-05-24 21:34:48] You (Decrypted): hhhhhhh
