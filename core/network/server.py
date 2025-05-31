@@ -1,4 +1,5 @@
-# core/network/server.py
+#core/network/server.py
+
 import socket
 import threading
 from core.encryption import encrypt_message, decrypt_message
@@ -52,6 +53,6 @@ class EchoLockServer:
             self.server.close()
 
 if __name__ == "__main__":
-    # When you run `python -m core.network.server`, this will execute:
+    # When you run `python -m core.network.server`, this will execute
     server = EchoLockServer()
     server.run()
