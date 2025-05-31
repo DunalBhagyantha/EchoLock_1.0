@@ -14,12 +14,14 @@ def show_login(on_success):
 
     login_window = tk.Tk()
     login_window.title("EchoLock - Login")
-    login_window.geometry("400x240")  # 📏 Increased size
-    login_window.configure(bg="#0f0f0f")  # 🖤 Darker background
+    login_window.geometry("400x240")  
+    login_window.configure(bg="#0f0f0f") 
+
+    
 
     # Fonts & colors
     font = ("Consolas", 11)
-    label_fg = "#39ff14"  # 💚 HackTheBox green
+    label_fg = "#39ff14"  
     button_bg = "#39ff14"
     button_fg = "#0f0f0f"
 
