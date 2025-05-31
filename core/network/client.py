@@ -1,4 +1,5 @@
 # core/network/client.py
+
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -48,6 +49,7 @@ class EchoLockClient:
                 break
         self.client.close()
 
-# Run if executed directly
+#Run if executed directly
+
 if __name__ == "__main__":
     EchoLockClient().connect()
