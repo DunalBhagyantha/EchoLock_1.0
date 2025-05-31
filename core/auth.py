@@ -19,6 +19,7 @@ def login(username: str, password: str) -> bool:
                 return True
     return False
 
+
 def prompt_login():
     while True:
         choice = input("[1] Login  [2] Register  [3] Exit > ").strip()
@@ -26,13 +27,13 @@ def prompt_login():
             u = input("Username: ")
             p = getpass("Password: ")
             if login(u,p):
-                print("✅ Logged in!")
+                print(" Logged in!")
                 return u
-            print("❌ Invalid.")
+            print(" Invalid.")
         elif choice == "2":
             u = input("New username: ")
             p = getpass("New password: ")
             register(u,p)
-            print("✅ Registered. Please login.")
+            print(" Registered. Please login.")
         else:
             exit()
