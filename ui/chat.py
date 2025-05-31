@@ -11,10 +11,10 @@ os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
 def start_chat_window():
     window = tk.Tk()
     window.title("EchoLock - Secure Chat")
-    window.geometry("820x580")  # 💻 Larger size
+    window.geometry("820x580") 
     window.configure(bg="#0d1117")
 
-    # 🪟 Title Label
+    # Title Label
     title_label = tk.Label(
         window,
         text="💬 EchoLock - Secure Chat",
@@ -25,7 +25,7 @@ def start_chat_window():
     )
     title_label.pack()
 
-    # 🪟 Frame for chat display
+    # Frame for chat display
     chat_frame = tk.Frame(window, bg="#0d1117")
     chat_frame.pack(pady=(0, 10), padx=20)
 
@@ -46,7 +46,7 @@ def start_chat_window():
     chat_display.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
     scrollbar.config(command=chat_display.yview)
 
-    # 📜 Load history
+    # Load history
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -55,7 +55,7 @@ def start_chat_window():
                     line = line[line.find("]") + 2:]
                 chat_display.insert(tk.END, line)
 
-    # 🧾 Bottom Frame
+    # Bottom Frame
     bottom_frame = tk.Frame(window, bg="#0d1117")
     bottom_frame.pack(pady=(0, 20), padx=20, fill=tk.X)
 
