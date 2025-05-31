@@ -4,12 +4,12 @@ from Crypto.Protocol.KDF import PBKDF2
 import base64
 import os
 
-# Constants
+#  Constants
 SALT_SIZE = 16
-KEY_SIZE = 32  # For AES-256
+KEY_SIZE = 32  #  AES-256
 ITERATIONS = 100_000
 
-# Key derivation
+  #  Key derivation
 def derive_key(password: str, salt: bytes) -> bytes:
     return PBKDF2(password, salt, dkLen=KEY_SIZE, count=ITERATIONS)
 
